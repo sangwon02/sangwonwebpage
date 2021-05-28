@@ -1,0 +1,99 @@
+body{
+    margin: 0%;
+}
+.section__content{
+    padding: 20px;
+    margin-top: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.section__content-frofile{
+    border-bottom: 2px solid black ;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.section__content-frofile:hover{
+    background-color: rgb(182, 182, 182);
+}
+
+.section__content-career{
+    border-bottom: 2px solid black ;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.section__content-career:hover{
+    background-color: rgb(182, 182, 182);
+
+}
+
+.section__content-introduce{
+    border-bottom: 2px solid black ;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+.section__content-introduce:hover{
+    background-color: rgb(182, 182, 182);
+}
+
+.section__content-history{
+    border-bottom: 2px solid black ;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.section__content-history:hover{
+    background-color: rgb(182, 182, 182);
+}
+
+.section__content-contact{
+    border-bottom: 2px solid black ;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.section__content-contact:hover{
+    background-color: rgb(182, 182, 182);
+
+}
+
+.section__content-tmi{
+    border-bottom: 2px solid black ;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+.section__content-tmi:hover{
+    background-color: rgb(182, 182, 182);
+
+}
+
+.bottom{
+    margin-top: 1000px;
+    margin-bottom: 0%;
+    padding: 30px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 254, 254);
+}
+
+.bottom a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 30px;
+    margin-left: auto;
+}
+
+.bottom a:hover{
+    color: grey;
+}
