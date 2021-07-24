@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'st';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_08@1.0/Middleschool_student.woff') format('woff');
+    font-family: 'SF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HambakSnow.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -13,87 +13,89 @@
 
 body{
     margin: 0%;
+    background-color: rgb(0, 0, 0);
 }
 .section__content{
     padding: 20px;
     margin-top: 250px;
     margin-left: 20px;
     margin-right: 20px;
-    font-family: "st";
+    font-family: "SF";
 }
 
+.section__content h4{
+    color: antiquewhite;
+}
+
+.section__content h2{
+    color: antiquewhite;
+}
 .section__content-frofile{
-    border-bottom: 2px solid black ;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 40px;
+    border: 2px solid rgb(179, 179, 179);
 }
 
 
 .section__content-frofile:hover{
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(41, 41, 41);
     text-decoration: wavy;
 }
 
 .section__content-career{
-    border-bottom: 2px solid black ;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 40px;
+    border: 2px solid rgb(179, 179, 179);
     margin-top: 20px;
 }
 
 .section__content-career:hover{
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(41, 41, 41);
     text-decoration: wavy;
 }
 
 .section__content-introduce{
-    border-bottom: 2px solid black ;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 40px;
+    border: 2px solid rgb(179, 179, 179);
     margin-top: 20px;
 }
 
 
 .section__content-introduce:hover{
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(41, 41, 41);
     text-decoration: wavy;
 }
 
 .section__content-history{
-    border-bottom: 2px solid black ;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 40px;
+    border: 2px solid rgb(179, 179, 179);
 }
 
 
 .section__content-history:hover{
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(41, 41, 41);
     text-decoration: wavy;
 }
 
 .section__content-contact{
-    border-bottom: 2px solid black ;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 40px;
+    border: 2px solid rgb(179, 179, 179);
 }
 
 
 .section__content-contact:hover{
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(41, 41, 41);
     text-decoration: wavy;
 
 }
 
 .section__content-tmi{
-    border-bottom: 2px solid black ;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 40px;
+    border: 2px solid rgb(179, 179, 179);
     margin-top: 20px;
 }
 
 
 .section__content-tmi:hover{
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(41, 41, 41);
     text-decoration: wavy;
 }
 
@@ -101,9 +103,10 @@ body{
     margin-top: 1000px;
     margin-bottom: 0%;
     padding: 30px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(41, 41, 41);
     color: rgb(255, 254, 254);
     font-family: "Fl";
+    border-top: 2px solid rgb(179, 179, 179);
 }
 
 .bottom a{

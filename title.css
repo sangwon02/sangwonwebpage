@@ -1,10 +1,9 @@
 @font-face {
-    font-family: 'SD';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
+    font-family: 'SF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HambakSnow.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'IM';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Bold.woff2') format('woff');
@@ -17,18 +16,21 @@
     top: 0;
     left: 0;
     right: 0;
-    background-color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+    background-color: rgb(81, 116, 101);
 }
 
 .title{
     font-size: 35px;
+    position: relative;
+    top: 12px;
 }
 
 .title h1{
     margin-top: 40px;
     margin-bottom: 30px;
     margin-left: 40px;
-    font-family: "SD";
+    font-family: "SF";
 }
 
 .title a{
@@ -42,8 +44,12 @@
 }
 
 .navigation{
-    margin-bottom: 40px;
-    background-color: rgb(92, 92, 92);
+    margin-bottom: none;
+    position: relative;
+    top: 25px;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(179, 179, 179);
+    border-top: 2px solid rgb(179, 179, 179);
 }
 
 .navigation ul{
@@ -57,7 +63,7 @@
 .navigation li{
     padding: 6px 10px;
     border-radius: 5px;
-    background-color: rgb(92, 92, 92);   
+    background-color: rgb(0, 0, 0);   
     transition: all 0.1s ease-in-out;
     font-family: "IM";
     margin-right: 20px;
@@ -65,7 +71,7 @@
 
 .navigation li:hover{
     transform: scale(0.95);
-    background-color: rgb(104, 104, 104);
+    background-color: rgb(41, 41, 41);
     color: rgba(75, 75, 75, 0.678);
     text-decoration: wavy;
 }
