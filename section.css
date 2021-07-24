@@ -1,11 +1,25 @@
+@font-face {
+    font-family: 'st';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_08@1.0/Middleschool_student.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Fl';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
     margin: 0%;
 }
 .section__content{
     padding: 20px;
-    margin-top: 300px;
+    margin-top: 250px;
     margin-left: 20px;
     margin-right: 20px;
+    font-family: "st";
 }
 
 .section__content-frofile{
@@ -16,7 +30,8 @@ body{
 
 
 .section__content-frofile:hover{
-    background-color: rgb(182, 182, 182);
+    background-color: rgb(243, 243, 243);
+    text-decoration: wavy;
 }
 
 .section__content-career{
@@ -27,8 +42,8 @@ body{
 }
 
 .section__content-career:hover{
-    background-color: rgb(182, 182, 182);
-
+    background-color: rgb(243, 243, 243);
+    text-decoration: wavy;
 }
 
 .section__content-introduce{
@@ -40,7 +55,8 @@ body{
 
 
 .section__content-introduce:hover{
-    background-color: rgb(182, 182, 182);
+    background-color: rgb(243, 243, 243);
+    text-decoration: wavy;
 }
 
 .section__content-history{
@@ -51,7 +67,8 @@ body{
 
 
 .section__content-history:hover{
-    background-color: rgb(182, 182, 182);
+    background-color: rgb(243, 243, 243);
+    text-decoration: wavy;
 }
 
 .section__content-contact{
@@ -62,7 +79,8 @@ body{
 
 
 .section__content-contact:hover{
-    background-color: rgb(182, 182, 182);
+    background-color: rgb(243, 243, 243);
+    text-decoration: wavy;
 
 }
 
@@ -75,8 +93,8 @@ body{
 
 
 .section__content-tmi:hover{
-    background-color: rgb(182, 182, 182);
-
+    background-color: rgb(243, 243, 243);
+    text-decoration: wavy;
 }
 
 .bottom{
@@ -85,6 +103,7 @@ body{
     padding: 30px;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 254, 254);
+    font-family: "Fl";
 }
 
 .bottom a{
