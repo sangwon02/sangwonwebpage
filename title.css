@@ -1,23 +1,10 @@
-@font-face {
-    font-family: 'SF';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HambakSnow.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'IM';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Bold.woff2') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 .head{
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     margin-bottom: 0px;
-    background-color: rgb(154, 174, 240);
+    background-color: rgb(175, 192, 250);
 }
 
 .title{
@@ -26,21 +13,17 @@
     top: 12px;
 }
 
-.title h1{
+.title a{
     margin-top: 40px;
     margin-bottom: 30px;
     margin-left: 40px;
-    font-family: "SF";
+
 }
 
 .title a{
     color: rgb(0, 0, 0);
     text-decoration-line: none;
     text-decoration-color: none;
-}
-
-.title a:hover{
-    color: rgb(51, 52, 53);
 }
 
 .navigation{
@@ -62,19 +45,12 @@
 
 .navigation li{
     padding: 6px 10px;
-    border-radius: 5px;
-    background-color: rgb(0, 0, 0);   
-    transition: all 0.1s ease-in-out;
-    font-family: "IM";
+    background-color: rgb(46, 46, 46);   
     margin-right: 20px;
+    border-radius: 10px;
 }
 
-.navigation li:hover{
-    transform: scale(0.95);
-    background-color: rgb(41, 41, 41);
-    color: rgba(75, 75, 75, 0.678);
-    text-decoration: wavy;
-}
+
 .navigation a{
     color: rgba(255, 255, 255, 0.678);
     text-decoration: none;
