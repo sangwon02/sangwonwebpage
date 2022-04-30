@@ -1,14 +1,13 @@
 body{
-    margin: 0%;
+    margin: 0;
     background-color: rgb(255, 255, 255);
 }
 
 .section__content{
     padding: 20px;
-    margin-top: 250px;
+    margin-top: 200px;
     margin-left: 20px;
     margin-right: 20px;
-    
 }
 
 .section__content p{
@@ -22,13 +21,6 @@ body{
 }
 
 .section__content-career{
-    padding: 40px;
-    border: 2px solid rgb(179, 179, 179);
-    margin-top: 20px;
-    border-radius: 20px;
-}
-
-.section__content-introduce{
     padding: 40px;
     border: 2px solid rgb(179, 179, 179);
     margin-top: 20px;
@@ -56,17 +48,13 @@ body{
 
 .bottom{
     margin-top: 1000px;
-    margin-bottom: 0%;
     padding: 30px;
     background-color: rgb(0, 0, 0);
-    color: rgb(255, 254, 254);
-    font-family: "Fl";
-    border-top: 2px solid rgb(179, 179, 179);
+    color: rgb(255, 255, 255);
+    border-top: 5px solid rgb(179, 179, 179);
 }
 
 .bottom a{
     color: rgb(255, 255, 255);
     text-decoration: none;
-    margin-right: 30px;
-    margin-left: auto;
 }

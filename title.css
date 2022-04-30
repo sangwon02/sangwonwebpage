@@ -3,7 +3,6 @@
     top: 0;
     left: 0;
     right: 0;
-    margin-bottom: 0px;
     background-color: rgb(175, 192, 250);
 }
 
@@ -17,17 +16,12 @@
     margin-top: 40px;
     margin-bottom: 30px;
     margin-left: 40px;
-
-}
-
-.title a{
     color: rgb(0, 0, 0);
     text-decoration-line: none;
     text-decoration-color: none;
 }
 
 .navigation{
-    margin-bottom: none;
     position: relative;
     top: 25px;
     background-color: rgb(0, 0, 0);
@@ -37,10 +31,8 @@
 
 .navigation ul{
     font-size: 17px;
-    padding: 0;
     justify-content: flex-end;
     display: flex;
-    list-style: none;
 }
 
 .navigation li{
