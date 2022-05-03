@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'SF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HambakSnow.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
     margin: 0;
     background-color: rgb(255, 255, 255);
@@ -8,6 +15,8 @@ body{
     margin-top: 200px;
     margin-left: 20px;
     margin-right: 20px;
+    font-family: "SF";
+    z-index: 1;
 }
 
 .section__content p{
@@ -20,11 +29,21 @@ body{
     border-radius: 20px;
 }
 
+.section__content-frofile:hover{
+    transform: scale(0.98);
+    background-color: rgb(218, 218, 218);
+}
+
 .section__content-career{
     padding: 40px;
     border: 2px solid rgb(179, 179, 179);
     margin-top: 20px;
     border-radius: 20px;
+}
+
+.section__content-career:hover{
+    transform: scale(0.98);
+    background-color: rgb(218, 218, 218);
 }
 
 .section__content-history{
@@ -33,10 +52,20 @@ body{
     border-radius: 20px;
 }
 
+.section__content-history:hover{
+    transform: scale(0.98);
+    background-color: rgb(218, 218, 218);
+}
+
 .section__content-contact{
     padding: 40px;
     border: 2px solid rgb(179, 179, 179);
     border-radius: 20px;
+}
+
+.section__content-contact:hover{
+    transform: scale(0.98);
+    background-color: rgb(218, 218, 218);
 }
 
 .section__content-tmi{
@@ -44,6 +73,10 @@ body{
     border: 2px solid rgb(179, 179, 179);
     margin-top: 20px;
     border-radius: 20px;
+}
+.section__content-tmi:hover{
+    transform: scale(0.98);
+    background-color: rgb(218, 218, 218);
 }
 
 .bottom{
@@ -57,4 +90,8 @@ body{
 .bottom a{
     color: rgb(255, 255, 255);
     text-decoration: none;
+}
+
+.bottom a:hover{
+    color: grey;
 }

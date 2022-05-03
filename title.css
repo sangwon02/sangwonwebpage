@@ -1,9 +1,23 @@
+@font-face {
+    font-family: 'SF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HambakSnow.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'IM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Bold.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .head{
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     background-color: rgb(175, 192, 250);
+    z-index: 2;
 }
 
 .title{
@@ -19,6 +33,11 @@
     color: rgb(0, 0, 0);
     text-decoration-line: none;
     text-decoration-color: none;
+    font-family: "SF";
+}
+
+.title a:hover{
+    color: rgb(0, 136, 255);
 }
 
 .navigation{
@@ -42,8 +61,13 @@
     border-radius: 10px;
 }
 
-
 .navigation a{
     color: rgba(255, 255, 255, 0.678);
     text-decoration: none;
+    font-family: "IM";
+}
+
+.navigation li:hover{
+    transform: scale(0.95);
+    background-color: rgb(41, 41, 41);
 }
