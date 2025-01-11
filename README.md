@@ -1,14 +1,14 @@
 # 여행별🌎 백엔드🍀
 <br>
 
-## 팀원
+## Team Members
 |<img src="https://avatars.githubusercontent.com/u/121166835?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/144138489?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/160315926?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/81412484?v=4" width="150" height="150"/>|
 |:-:|:-:|:-:|:-:|
 |유찬혁<br/>[@ri7116](https://github.com/ri7116)|홍지호<br/>[@jih023](https://github.com/jih023)|황무원<br/>[@codmoni](https://github.com/codmoni)|이상원<br/>[@sangwon02](https://github.com/sangwon02)|
 <br>
 <br>
 
-## 브랜치 전략
+## Branch Strategy
 Git-flow 전략을 기반으로 main, develop 브랜치와 feature 보조 브랜치를 운용 
 
 main, develop, feat 브랜치로 나누어 개발
@@ -33,7 +33,7 @@ PR 후 팀원들에게 공지하기
 <br>
 
 
-## 커밋 전략
+## Commit Convention
 `태그: 제목`의 형태이며, `: `뒤에만 띄어쓰기를 작성해주시면 됩니다!
 
  - `feat` : 새로운 기능과 관련된 것(새로운 기능을 추가)을 의미
@@ -53,9 +53,10 @@ PR 후 팀원들에게 공지하기
 <br>
 <br>
 
-## 기술 스택
+## Tech Stack
 
 - Backend: Node.js, Express
 
 - Database: Prisma, MySQL 
 
+- Deployment: HTTPS
