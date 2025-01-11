@@ -19,9 +19,9 @@ main 브랜치는 배포 단계에서만 사용하는 브랜치
 develop 브랜치는 개발 단계에서 git-flow의 master 역할을 하는 브랜치
 
 Feat 브랜치는 기능 단위로 독립적인 개발 환경을 위하여 사용하고 merge 후 각 브랜치 삭제
-
-
-📝 Feature branch
+<br>
+<br>
+## Feature branch
 브랜치명은 아래의 형식으로 작성 (feature/이름-기능제목#이슈번호)
 
 팀원 sheepyis의 브랜치명: feature/sheepyis-login#1
@@ -29,8 +29,8 @@ Feat 브랜치는 기능 단위로 독립적인 개발 환경을 위하여 사�
 Feature branch -> develop branch로 merge하기 전 PR에서 reviewers 설정하여 팀원 2명 이상에게 approve 받기
 
 PR 후 팀원들에게 공지하기
-
-
+<br>
+<br>
 ## 커밋 전략
 `태그: 제목`의 형태이며, `: `뒤에만 띄어쓰기를 작성해주시면 됩니다!
 
