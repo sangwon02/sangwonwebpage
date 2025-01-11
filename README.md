@@ -53,3 +53,9 @@ PR 후 팀원들에게 공지하기
 <br>
 <br>
 
+## 기술 스택
+
+- Backend: Node.js, Express
+
+- Database: Prisma, MySQL 
+
